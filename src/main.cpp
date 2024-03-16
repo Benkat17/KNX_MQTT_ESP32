@@ -12,18 +12,18 @@
 const char* config_file = "/config.txt";
 
 //WiFi
-const char* wifi_ssid = "Temporaire_2.4G";
-const char* wifi_password = "-domotique";
+const char* wifi_ssid = ".4G";
+const char* wifi_password = "  ";
 
 //Point d'acces
 const char* access_ssid = "ESP_32_ACCESS";
 const char* access_password = "ESP_32_ACCESS";
 
 //MQTT
-const char* mqtt_server = "mqtt.4x.re";
-const int mqtt_port = 1883;
-const char* mqtt_user = "itea";
-const char* mqtt_password = "*domoserv";
+const char* mqtt_server = "";
+const int mqtt_port = ;
+const char* mqtt_user = "";
+const char* mqtt_password = "";
 const char* topic = "knx";
 
 WiFiClient espClient;
